@@ -1,16 +1,16 @@
 {% set name = "hpp-plot" %}
-{% set version = "5.1.0" %}
+{% set version = "5.2.0" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  url: https://github.com/humanoid-path-planner/{{ name }}/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b35bc08e86925532efc62e8110c5669f007cf5101ce6478515483a55cff1acc9
+  url: https://github.com/humanoid-path-planner/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: 01a9da54c63eb060dcdc243f23b13c93943f3924bdd705c1ef15f4f9c3470a5a
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage(name|lower, max_pin='x.x.x') }}
