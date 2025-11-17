@@ -32,7 +32,7 @@ requirements:
     - qgv
     - hpp-manipulation-corba {{ version }}
     - hpp-corbaserver {{ version }}
-    - gepetto-viewer-corba
+    - gepetto-viewer-corba {{ version }}
     - gepetto-viewer
     - omniorb-libs
   run:
