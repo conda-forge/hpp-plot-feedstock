@@ -24,7 +24,7 @@ requirements:
     - pkg-config
     - doxygen
   host:
-    - libboost-devel
+    - libboost-python-devel
     - libboost-python
     - qt-main
     - qgv
