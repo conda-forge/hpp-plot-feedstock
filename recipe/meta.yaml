@@ -40,6 +40,7 @@ requirements:
   run:
     - {{ pin_compatible('omniorb-libs', max_pin='x.x.x') }}
     - omniorb
+    - python
 
 test:
   requires:
