@@ -29,8 +29,8 @@ requirements:
     - qgv
     - hpp-manipulation-corba {{ version }}
     - hpp-corbaserver {{ version }}
-    - gepetto-viewer-corba {{ version }}
-    - gepetto-viewer {{ version }}
+    - gepetto-viewer-corba
+    - gepetto-viewer
     - omniorb-libs
     - omniorb
     - libgl-devel                         # [linux]
